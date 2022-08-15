@@ -10,9 +10,11 @@ importers:
 
   apps/v-vue3:
     specifiers:
+      '@shared/style': workspace:^1.0.0
       '@shared/utils': workspace:^1.0.0
       '@shared/vue3': workspace:^1.0.0
     dependencies:
+      '@shared/style': link:../../shared/style
       '@shared/utils': link:../../shared/utils
       '@shared/vue3': link:../../shared/vue3
 
@@ -23,6 +25,9 @@ importers:
     dependencies:
       '@shared/utils': link:../../shared/utils
       '@shared/vue3': link:../../shared/vue3
+
+  shared/style:
+    specifiers: {}
 
   shared/utils:
     specifiers: {}

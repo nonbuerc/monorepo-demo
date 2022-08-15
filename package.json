@@ -1,13 +1,12 @@
 {
     "name": "monorepo-demo",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "private": true,
     "scripts": {
+        "dev:v-vue3": "pnpm -r --filter @apps/v-vue3  run dev",
+        "dev:v-vue3-ts": "pnpm -r --filter @apps/v-vue3-ts  run dev",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "keywords": [],
-    "author": "",
     "license": "ISC",
     "devDependencies": {
         "typescript": "^4.7.4"

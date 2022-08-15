@@ -10,7 +10,8 @@
     },
     "dependencies": {
         "@shared/vue3": "workspace:^1.0.0",
-        "@shared/utils": "workspace:^1.0.0"
+        "@shared/utils": "workspace:^1.0.0",
+        "@shared/style": "workspace:^1.0.0"
     },
     "devDependencies": {
         "@shared/vue3": "workspace:^1.0.0"
