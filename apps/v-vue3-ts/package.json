@@ -1,0 +1,18 @@
+{
+    "name": "v-vue3-ts",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@shared/vue3": "workspace:^1.0.0",
+        "@shared/utils": "workspace:^1.0.0"
+    },
+    "devDependencies": {
+        "@shared/vue3": "workspace:^1.0.0"
+    }
+}
