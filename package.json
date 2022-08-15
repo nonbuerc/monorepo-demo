@@ -1,0 +1,34 @@
+{
+  "name": "monorepo-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "pnpm -r --filter ./packages --parallel run dev",
+    "dev:vite-vue3": "pnpm run -C packages/vite-vue3 dev",
+    "build": "pnpm -r --filter ./packages --parallel run build",
+    "preview": "pnpm -r --filter ./packages --parallel run preview",
+    "clean": "rm -rf node_modules **/*/node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.3.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.0",
+    "vue-tsc": "^0.38.4"
+  }
+}
